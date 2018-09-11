@@ -157,8 +157,14 @@
     <Compile Include="Migrations\201809031608127_Base Inicial.Designer.cs">
       <DependentUpon>201809031608127_Base Inicial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201809110323472_Se agrega la entidad de TipoContacto.cs" />
+    <Compile Include="Migrations\201809110323472_Se agrega la entidad de TipoContacto.Designer.cs">
+      <DependentUpon>201809110323472_Se agrega la entidad de TipoContacto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Auditoria.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\TipoContacto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -297,6 +303,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201809031608127_Base Inicial.resx">
       <DependentUpon>201809031608127_Base Inicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809110323472_Se agrega la entidad de TipoContacto.resx">
+      <DependentUpon>201809110323472_Se agrega la entidad de TipoContacto.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

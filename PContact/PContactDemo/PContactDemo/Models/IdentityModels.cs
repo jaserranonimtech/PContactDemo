@@ -32,8 +32,7 @@ namespace PContactDemo.Models
             base.OnModelCreating(modelBuilder);
         }
 
-      
-
-
+        public virtual DbSet<TipoContacto> TipoContacto { get; set; }
+        
     }
 }
